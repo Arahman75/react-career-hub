@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
-import { Link } from 'react-router-dom';
+
 
 const FeaturedJobs = () => {
     const [jobs, setJobs] = useState([]);
